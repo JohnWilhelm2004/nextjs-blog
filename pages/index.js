@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
+import Link from "next/link";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -24,8 +25,10 @@ export default function Home({ allPostsData }) {
           science.
         </p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Here you can see my first page I've created using React:
+          <br /> <Link href="/posts/reactapp">Meine-React-App.</Link>
+          <br />
+          I've build this Page in my time as an Intern at Sportision.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
