@@ -14,7 +14,7 @@ export default function reactapp() {
       <h2>
         Please visit the other pages too:
         <br />
-        <Link href="/posts/reactpages/underpage1">Underpage 1</Link>
+        <Link href="/posts/reactpages/underpage1">Calculator</Link>
         <Link href="/posts/reactpages/underpage2">Underpage 2</Link>
         <Link href="/posts/reactpages/underpage3">Underpage 3</Link>
       </h2>
