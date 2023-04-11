@@ -5,7 +5,7 @@ export default function underpage1() {
     <>
       <h1>This page is still in progress.</h1>
       <h2>
-        Go back to <Link href="/">Meine React App</Link>.
+        Go back to <Link href="/posts/reactapp">Meine React App</Link>.
       </h2>
     </>
   );
