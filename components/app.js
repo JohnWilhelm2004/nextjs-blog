@@ -28,6 +28,15 @@ export default function Calcdesign({ children }) {
       case "+":
         setInput(Number(input) + Number(curState));
         break;
+      case "-":
+        setInput(Number(curState) - Number(input));
+        break;
+      case "/":
+        setInput(Number(curState) / Number(input));
+        break;
+      case "x":
+        setInput(Number(input) * Number(curState));
+        break;
     }
     setCurState("");
     setOperator("");
