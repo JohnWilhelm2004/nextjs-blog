@@ -43,11 +43,14 @@
   grid-column: 1/ -1;
   color: white;
   text-align: right;
+  text-align: top;
+  vertical-align: top;
   padding: 0.5rem;
   font-size: 4rem;
+  line-height: 3rem;
   overflow: hidden;
-  border-radius: 10px 0 0 10px;
-  background-clip: padding-box;
+  border-radius: 10px 10px 10px 10px;
+  /* background-clip: padding-box; */
   border: 1px solid white;
 }
 

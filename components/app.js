@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import appStyles from "/components/App.module.css";
+import appStyles from "/components/app.module.css";
 
 export default function Calcdesign({ children }) {
   const [preState, setState] = useState("");
@@ -55,7 +55,7 @@ export default function Calcdesign({ children }) {
   return (
     <div className={appStyles.container}>
       <div className={appStyles.wrapper}>
-        <div className={`${appStyles.screen} ${appStyles.btn}`}>{input}</div>
+        <div className={`${appStyles.screen}`}>{input}</div>
         <div
           className={`${appStyles.btn} ${appStyles.lightGray}`}
           onClick={reset}
